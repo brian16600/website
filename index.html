@@ -24,11 +24,7 @@
       <header id="header" class="alt">
         <span class="logo"><img src="images/logo.svg" alt="" /></span>
         <h1>Brian's Website</h1>
-        <p>
-          A list of projects I've done<br />
-          built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for
-          <a href="https://html5up.net">HTML5 UP</a>.
-        </p>
+        <p>A list of projects I've done<br /></p>
       </header>
 
       <!-- Nav -->
@@ -60,6 +56,7 @@
                   <a
                     href="https://www.linkedin.com/in/brian16600/"
                     class="button"
+                    target="_blank"
                     >See my LinkedIn</a
                   >
                 </li>
@@ -75,29 +72,41 @@
             <h2>Work Experience</h2>
           </header>
           <ul class="features">
-            <li
-              style="justify-content: space-between; display: flex; width: 100%"
-            >
+            <li class="work">
               <span
-                class="image left"
+                class="image"
                 style="
-                  margin-right: 50px;
-                  margin-left: 4em;
-                  padding: 0.65em;
+                  margin: 20px 5vw;
                   border-radius: 50%;
                   border: solid 1px;
                   border-color: #dddddd;
+                  padding: 0.5em;
+                  width: 25vw;
+                  height: 25vw;
+                  max-height: 250px;
+                  max-width: 250px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
                 "
                 ><img
-                  style="border-radius: 100%; width: 12em; height: 12em"
+                  style="border-radius: 100%; width: 70%; height: 70%"
                   src="images/iraslogo.jpg"
                   alt=""
               /></span>
-              <div>
-                <h2>Inland Revenue Authority of Singapore (IRAS)</h2>
+              <div style="max-width: 60%">
+                <h2>
+                  Data Analyst Intern, Inland Revenue Authority of Singapore
+                  (IRAS)
+                </h2>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  consequat tempus veroeros sed consequat.Sed lorem amet ipsum
+                  dolor et amet nullam consequat a feugiat consequat tempus
+                  veroeros sed consequat.Sed lorem amet ipsum dolor et amet
+                  nullam consequat a feugiat consequat tempus veroeros sed
+                  consequat.Sed lorem amet ipsum dolor et amet nullam consequat
+                  a feugiat consequat tempus veroeros sed consequat.
                 </p>
               </div>
             </li>
@@ -107,12 +116,252 @@
         <!-- Second Section -->
         <section id="second" class="main special">
           <header class="major">
-            <h2>Ipsum consequat</h2>
+            <h2>My Projects</h2>
             <p>
-              Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.
+              These are some projects that I've done on my own or as part of
+              school projects.<br />
+              Each project has a Github repo that can be accessed to view the
+              codebase and <br />
+              documentation/in-depth descriptions behind it.
             </p>
           </header>
+          <div class="project-image">
+            <div
+              style="
+                border-top: 25px;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                background-color: #c79cc8;
+                height: 15vw;
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+                color: #ffffff;
+                min-height: 120px;
+                min-width: 120px;
+                max-width: 200px;
+                max-height: 200px;
+                justify-content: center;
+              "
+            >
+              <span
+                class="icon solid fa-code-branch"
+                style="font-size: 2.75rem; line-height: 1.3"
+              ></span>
+              <strong style="font-size: 1.5em; color: white">NLP</strong>
+            </div>
+            <div class="project-text">
+              <h2>Natural Language Processing (NLP) Workshop</h2>
+              <p>
+                As part of Google Developer Student Club (GDSC) NUS, a
+                student-led club aiming to promote Tech For Good, I conducted a
+                workshop on Natural Language Processing with ~50 participants.
+                Through this workshop, we taught students from various faculties
+                the basics of Machine Learning, how Natural Language Processing
+                works, and guided them on 2 short projects:<br /><br />
+                1. Using NLP to analyse restaurant reviews of restaurants around
+                NUS<br />
+                2. Using NLP to identify Covid-19 related posts on social media
+                & news articles.
+              </p>
+              <ul class="actions special">
+                <li>
+                  <a
+                    href="https://github.com/brian16600/Machine_Learning_2_Workshop_Repo/tree/main"
+                    class="button"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github" style="padding-right: 5px"></i>
+                    Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-image">
+            <div
+              style="
+                border-top: 25px;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                background-color: #efa8b0;
+                height: 15vw;
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+                color: #ffffff;
+                min-height: 120px;
+                min-width: 120px;
+                max-width: 200px;
+                max-height: 200px;
+                justify-content: center;
+              "
+            >
+              <span
+                class="icon solid fa-folder-open"
+                style="font-size: 2.75rem; line-height: 1.3"
+              ></span>
+              <strong style="font-size: 1.5em; color: white">Java CLI</strong>
+            </div>
+            <div class="project-text">
+              <h2>Software Engineering Project: NUS Classes</h2>
+              <p>
+                NUS Classes is a Java Command Line Interface based application
+                developed for a software engineering project. It allows users
+                (professors) to talk to a responsive chatbot to schedule their
+                classes, manage contacts of TAs and students as well as
+                meetings. It is developed using Java, JavaFX and JUnit tests.
+                The project involves software engineering concepts such as
+                automated testing, JUnit tests, as well as using learnt software
+                engineering concepts and paradigms such as AGILE, UML Diagrams,
+                detailed User Guide & Developer Guide documentation, identifying
+                user needs, proper design architecture and more.
+              </p>
+              <ul class="actions special">
+                <li>
+                  <a
+                    href="https://github.com/brian16600/tp"
+                    class="button"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github" style="padding-right: 5px"></i>
+                    Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-image">
+            <div
+              style="
+                border-top: 25px;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                background-color: #a89cc8;
+                height: 15vw;
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+                color: #ffffff;
+                min-height: 120px;
+                min-width: 120px;
+                max-width: 200px;
+                max-height: 200px;
+                justify-content: center;
+              "
+            >
+              <span
+                class="icon solid fa-laptop"
+                style="font-size: 2.75rem; line-height: 1.3"
+              ></span>
+              <strong style="font-size: 1.5em; color: white">Full-Stack</strong>
+            </div>
+            <div class="project-text">
+              <h2>Independent Software Development Project: Notable</h2>
+              <p>
+                Notable is a note sharing application developed with the
+                intention of allowing students to contribute their notes for a
+                module once they have finished taking it. Juniors that are
+                taking the modules in future can download the notes uploaded by
+                their seniors, which can be official lecture notes or self
+                created ones, with ratings for notes & profile pages for users.
+                <br /><br />
+                Notable implements CRUD (Create, Read, Update, Delete)
+                operations, with its front end in TypeScript, JavaScript & React
+                framework and the backend being Google Firebase & Google Cloud
+                Firestore.
+              </p>
+              <ul class="actions special">
+                <li>
+                  <a
+                    href="https://github.com/brian16600/Notable"
+                    class="button"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github" style="padding-right: 5px"></i>
+                    Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-image">
+            <div
+              style="
+                border-top: 25px;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+                background-color: #8cc9f0;
+                height: 15vw;
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+                color: #ffffff;
+                min-height: 120px;
+                min-width: 120px;
+                max-width: 200px;
+                max-height: 200px;
+                justify-content: center;
+              "
+            >
+              <span
+                class="icon brands fa-react"
+                style="font-size: 2.75rem; line-height: 1.3"
+              ></span>
+              <strong style="font-size: 1.5em; color: white">React</strong>
+            </div>
+            <div class="project-text">
+              <h2>Developer Student Clubs: Website</h2>
+              <p>
+                As part of Google Developer Student Clubs (GDSC) NUS, a
+                student-led club within NUS, I led a team of associates to
+                revamp and redesign the website using a Content Management
+                System service Plasmic. This would allow future UI/UX designers
+                to use pre-existing, fully customizable components we had
+                created previously to build websites without any code needed.<br /><br />
+                Alongside working on the website, I assigned work to team
+                members using Jira, and was responsible for configuring the SEO
+                of DSC's website to show on search engines and worked with UI/UX
+                designers to understand their needs and provide required code
+                components. The website would be showcased to Non Profit
+                Organizations (NPOs) such as the Food Bank, Diabetes Association
+                Singapore & more, leading to fruitful partnerships with them.
+              </p>
+              <ul class="actions special">
+                <li>
+                  <a
+                    href="https://dsc.comp.nus.edu.sg"
+                    class="button"
+                    target="_blank"
+                  >
+                    <i
+                      class="icon solid fa-globe"
+                      style="padding-right: 5px"
+                    ></i>
+                    Website</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/GDSC-NUS/gdsc_nus"
+                    class="button"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github" style="padding-right: 5px"></i>
+                    Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
           <ul class="statistics">
             <li class="style1">
               <span class="icon solid fa-code-branch"></span>
@@ -174,6 +423,7 @@
               <a
                 href="https://www.linkedin.com/in/brian16600/"
                 class="icon brands fa-github alt"
+                target="_blank"
                 ><span class="label">GitHub</span></a
               >
             </li>
@@ -181,13 +431,16 @@
               <a
                 href="https://github.com/brian16600"
                 class="icon brands fa-linkedin alt"
+                target="_blank"
                 ><span class="label">LinkedIn</span></a
               >
             </li>
           </ul>
         </section>
         <p class="copyright">
-          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+          &copy; Design:
+          <a href="https://html5up.net">HTML5 UP</a>. Credit for the template
+          goes to @ajlkn.
         </p>
       </footer>
     </div>
