@@ -282,6 +282,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
+  font-size: 18px;
 }
 
 p.content {
@@ -2391,7 +2392,7 @@ input[type="radio"]:focus + label:before {
 
 .icon.alt:before {
   display: block;
-  font-size: 1.25em;
+  font-size: 2em;
   width: 2em;
   height: 2em;
   text-align: center;
@@ -2725,7 +2726,7 @@ ul.icons {
 
 ul.icons li {
   display: inline-block;
-  padding: 0 0.65em 0 0;
+  padding: 0 2em 0 0;
 }
 
 ul.icons li:last-child {
@@ -3101,7 +3102,8 @@ table.alt tbody tr td {
   margin-left: 4em;
   padding: 0.65em;
   border-radius: 100%;
-  border: solid 1px;
+  border: solid 2px;
+  border-color: black;
 }
 
 .spotlight .image img {
@@ -3681,7 +3683,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main .spotlight .image {
-  border-color: #dddddd;
+  border-color: #c0c0c0;
 }
 
 #main > .main {
